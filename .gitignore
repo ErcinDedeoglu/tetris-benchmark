@@ -2,8 +2,7 @@
 *.goal-file-credentials
 .env
 *.goal-review
-.opencode/opencode-loop/
-.opencode/goals/
+.opencode/
 
 # build output and generated benchmark artifacts
 /target/
