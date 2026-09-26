@@ -1,0 +1,10 @@
+*.goal-interview
+*.goal-file-credentials
+.env
+*.goal-review
+.opencode/opencode-loop/
+.opencode/goals/
+
+# build output and generated benchmark artifacts
+/target/
+scoreboard.md

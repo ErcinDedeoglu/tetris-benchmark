@@ -1,0 +1,11 @@
+[package]
+name = "tetris"
+version = "0.1.0"
+edition.workspace = true
+
+[[bin]]
+name = "tetris"
+path = "src/main.rs"
+
+[dependencies]
+engine = { path = "../engine" }

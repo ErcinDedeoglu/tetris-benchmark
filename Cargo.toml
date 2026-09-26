@@ -1,0 +1,17 @@
+[workspace]
+resolver = "2"
+members = [
+    "crates/engine",
+    "crates/tetris",
+    "crates/referee",
+    "crates/dummy-random",
+    "crates/dummy-drop",
+    "crates/thinker",
+]
+
+[workspace.package]
+edition = "2021"
+
+[profile.release]
+lto = true
+codegen-units = 1

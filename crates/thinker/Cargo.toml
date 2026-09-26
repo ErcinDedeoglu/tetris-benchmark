@@ -1,0 +1,12 @@
+[package]
+name = "thinker"
+version = "0.1.0"
+edition.workspace = true
+
+[[bin]]
+name = "thinker"
+path = "src/main.rs"
+
+[dependencies]
+ureq = { version = "2", features = ["json"] }
+serde_json = "1"
